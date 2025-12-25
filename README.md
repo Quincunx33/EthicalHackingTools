@@ -230,7 +230,7 @@ utils.py - Utilities (Assumed)
 · Reporting helper
 ```
 
-📊 Usage Guide
+### 📊 Usage Guide
 
 Starting the Tool
 
@@ -292,7 +292,7 @@ Example Workflows
 5. Start attack
 ```
 
-🔧 Configuration
+### 🔧 Configuration
 
 Edit config.py for Custom Settings:
 
@@ -332,7 +332,7 @@ Add custom wordlists to:
 · wordlists/subdomains.txt - Subdomain enumeration
 · user_agents.txt - Additional user agents
 
-📁 Project Structure
+### 📁 Project Structure
 
 ```
 hackerai/
@@ -352,7 +352,7 @@ hackerai/
 └── wordlists/            # Custom wordlists
 ```
 
-🔐 Security Guidelines
+### 🔐 Security Guidelines
 
 ✅ Authorized Testing Checklist
 
@@ -405,7 +405,7 @@ Feature Requests
 3. Suggest implementation approach
 4. Consider security implications
 
-📄 License
+### 📄 License
 
 Educational Use Only License
 

@@ -114,7 +114,7 @@ pip install aiohttp requests fake_useragent urllib3 colorama beautifulsoup4
 
 ```
 
-Or For A shell(manually)
+For A shell(manually)
 
 ```bash
 pip install aiohttp 
@@ -142,7 +142,7 @@ Step 3: Run it
 python3 main.py
 ```
 ### Use vpn on ios 
-
+### Use tor on android
 Optional: Tor Setup (For Enhanced Anonymity)
 
 ```bash
@@ -477,5 +477,5 @@ beautifulsoup4>=4.12.0
 Quick Start Command:
 
 ```bash
-git clone https://github.com/yourusername/hackerai.git && cd hackerai && pip install -r requirements.txt && python3 main.py
+https://github.com/nafis548/EthicalHackingTools.git && cd pythonattack && pip install -r requirements.txt && python3 main.py
 ```

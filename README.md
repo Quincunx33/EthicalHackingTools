@@ -82,7 +82,7 @@
 - **Export Options**: TXT, JSON export formats
 - **Session Management**: Persistent session handling
 - **Real-time Statistics**: Attack performance metrics
-
+```
 ## 🚀 Installation
 
 ### Prerequisites
@@ -94,8 +94,8 @@
 ```bash
 git clone https://github.com/yourusername/hackerai.git
 cd hackerai
-```
-Step 1:Goto
+
+Step 1:cd 
 
 ```bash
 cd pythonattack
@@ -158,7 +158,7 @@ brew services start tor
 # Download from: https://www.torproject.org/download/
 ```
 
-🛠️ Modules Overview
+### 🛠️ Modules Overview
 ```
 main.py - Entry Point
 

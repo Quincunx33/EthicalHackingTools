@@ -1,3 +1,8 @@
+####  ⚠️This is for learning purposes, not for production or real attacks.
+
+
+
+
 # 🛡️ HackerAI - Advanced Security Assessment Toolkit v3.0
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)

@@ -374,7 +374,7 @@ hackerai/
 4. Respect Privacy: Avoid accessing personal data
 5. Follow Scope: Stay within authorized boundaries
 
-🤝 Contributing
+## 🤝 Contributing
 
 We welcome contributions! Please follow these guidelines:
 

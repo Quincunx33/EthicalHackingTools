@@ -1,4 +1,4 @@
-####                ⚠️This is for learning purposes, not for production or real attacks.
+
 
 
 
@@ -34,6 +34,7 @@
 - **Comprehensive Toolset**: From reconnaissance to post-exploitation
 - **Professional Reporting**: JSON-based reporting with export options
 
+####                ⚠️This is for learning purposes, not for production or real attacks.
 ## ⚠️ DISCLAIMER
 
                             SECURITY DISCLAIMER     

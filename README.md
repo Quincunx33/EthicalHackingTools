@@ -92,14 +92,9 @@
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/yourusername/hackerai.git
-cd hackerai
-
-Step 1:cd 
-
-```bash
+git clone https://github.com/nafis548/EthicalHackingTools.git
 cd pythonattack
-```
+
 
 Step 2: Install Dependencies
 

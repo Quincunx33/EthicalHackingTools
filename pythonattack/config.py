@@ -17,7 +17,7 @@ R, G, Y, B, C, W, M, BL, CY, OR = Colors.R, Colors.G, Colors.Y, Colors.B, Colors
 REPORT_FILE = "hackerai_scan_report.json"
 THREADS = 50
 TIMEOUT = 10  # সেকেন্ডে টাইমআউট
-LHOST = "192.168.1.100"
+LHOST = "0.0.0.0"
 LPORT = 4444
 BANNER = f"""{B}
     █░█ ▄▀█ █▀▀ █▄▀ █▀▀ █▀█ ▄▀█ █

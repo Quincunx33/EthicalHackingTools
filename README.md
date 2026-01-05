@@ -301,7 +301,7 @@ Edit config.py for Custom Settings:
 # Network Settings
 THREADS = 50              # Concurrent threads
 TIMEOUT = 10              # Request timeout (seconds)
-LHOST = "192.168.1.100"   # Default listener IP
+LHOST = "0.0.0.0"         # Default listener IP
 LPORT = 4444              # Default listener port
 
 # Reporting

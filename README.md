@@ -98,7 +98,7 @@
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/nafis548/EthicalHackingTools.git
+git clone https://github.com/Quincunx33/EthicalHackingTools.git
 cd pythonattack
 ```
 
@@ -478,5 +478,5 @@ beautifulsoup4>=4.12.0
 Quick Start Command:
 
 ```bash
-https://github.com/nafis548/EthicalHackingTools.git && cd pythonattack && pip install -r requirements.txt && python3 main.py
+https://github.com/Quincunx33/EthicalHackingTools.git && cd pythonattack && pip install -r requirements.txt && python3 main.py
 ```

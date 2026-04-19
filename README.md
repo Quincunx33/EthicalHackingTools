@@ -28,11 +28,15 @@
    ```bash
    pkg install python git
    ```
-3. Clone and install dependencies:
+3. Install required libraries:
+   ```bash
+   pip install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles pytest black flake8
+   ```
+4. Clone and run:
    ```bash
    git clone https://github.com/Quincunx33/EthicalHackingTools.git
    cd EthicalHackingTools
-   pip install -r requirements.txt
+   python main.py
    ```
 
 ### 🍎 iOS (a-Shell)
@@ -42,43 +46,51 @@
    git clone https://github.com/Quincunx33/EthicalHackingTools.git
    cd EthicalHackingTools
    ```
-3. Install dependencies:
+3. Install dependencies manually:
    ```bash
-   pip install -r requirements.txt
+   pip install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles
    ```
+   *(Note: Dev tools like pytest/black/flake8 are optional for iOS)*
 
 ### 🐧 Linux (Ubuntu/Kali/Debian)
-1. Update system:
+1. Update system and install base tools:
    ```bash
-   sudo apt update && sudo apt upgrade
+   sudo apt update && sudo apt install python3 python3-pip git -y
    ```
-2. Install Python and Pip:
+2. Install all core and dev requirements:
    ```bash
-   sudo apt install python3 python3-pip git
+   pip3 install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles pytest black flake8
    ```
 3. Clone and setup:
    ```bash
    git clone https://github.com/Quincunx33/EthicalHackingTools.git
    cd EthicalHackingTools
-   pip3 install -r requirements.txt
+   python3 main.py
    ```
 
 ### 🪟 Windows
 1. Install [Python 3.10+](https://www.python.org/downloads/) (Ensure "Add Python to PATH" is checked).
-2. Open PowerShell or CMD:
+2. Open PowerShell or CMD and install libraries:
+   ```powershell
+   pip install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles pytest black flake8
+   ```
+3. Clone and run:
    ```powershell
    git clone https://github.com/Quincunx33/EthicalHackingTools.git
    cd EthicalHackingTools
-   pip install -r requirements.txt
+   python main.py
    ```
 
 ---
 
-## 💻 Usage
-Run the main entry point to start the orchestrator:
-```bash
-python main.py
-```
+## 📦 Required Tools & Libraries
+The framework relies on the following Python packages:
+- **Networking:** `requests`, `aiohttp`
+- **UI/UX:** `colorama`
+- **Configuration:** `pyyaml`, `python-dotenv`
+- **Parsing:** `beautifulsoup4`, `lxml`
+- **Async Operations:** `asyncio`, `aiofiles`
+- **Development:** `pytest`, `black`, `flake8`
 
 ---
 

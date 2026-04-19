@@ -1,0 +1,20 @@
+{
+    "auto_refresh_proxies": true,
+    "auto_remove_failed_proxies": true,
+    "compact_mode": false,
+    "custom_names": {},
+    "disable_security": false,
+    "enable_security_scan": true,
+    "font_size": "normal",
+    "log_level": "INFO",
+    "max_retry_attempts": 3,
+    "max_threads": 5,
+    "output_format": "text",
+    "proxy_list": [],
+    "proxy_mode": "Rotate",
+    "proxy_test_enabled": true,
+    "request_timeout": 10,
+    "save_logs": true,
+    "show_disclaimer": true,
+    "theme": "dark"
+}

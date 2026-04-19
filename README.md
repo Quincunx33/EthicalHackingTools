@@ -28,14 +28,22 @@
    ```bash
    pkg install python git
    ```
-3. Install required libraries:
-   ```bash
-   pip install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles pytest black flake8
-   ```
-4. Clone and run:
+3. Clone the repository:
    ```bash
    git clone https://github.com/Quincunx33/EthicalHackingTools.git
    cd EthicalHackingTools
+   ```
+4. Install required libraries (Choose one):
+   - **Option A (Recommended):**
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - **Option B (Manual):**
+     ```bash
+     pip install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles pytest black flake8
+     ```
+5. Run the tool:
+   ```bash
    python main.py
    ```
 
@@ -46,38 +54,58 @@
    git clone https://github.com/Quincunx33/EthicalHackingTools.git
    cd EthicalHackingTools
    ```
-3. Install dependencies manually:
-   ```bash
-   pip install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles
-   ```
-   *(Note: Dev tools like pytest/black/flake8 are optional for iOS)*
+3. Install dependencies:
+   - **Option A:**
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - **Option B:**
+     ```bash
+     pip install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles
+     ```
 
 ### 🐧 Linux (Ubuntu/Kali/Debian)
 1. Update system and install base tools:
    ```bash
    sudo apt update && sudo apt install python3 python3-pip git -y
    ```
-2. Install all core and dev requirements:
-   ```bash
-   pip3 install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles pytest black flake8
-   ```
-3. Clone and setup:
+2. Clone the repository:
    ```bash
    git clone https://github.com/Quincunx33/EthicalHackingTools.git
    cd EthicalHackingTools
+   ```
+3. Install requirements:
+   - **Option A:**
+     ```bash
+     pip3 install -r requirements.txt
+     ```
+   - **Option B:**
+     ```bash
+     pip3 install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles pytest black flake8
+     ```
+4. Run the tool:
+   ```bash
    python3 main.py
    ```
 
 ### 🪟 Windows
 1. Install [Python 3.10+](https://www.python.org/downloads/) (Ensure "Add Python to PATH" is checked).
-2. Open PowerShell or CMD and install libraries:
-   ```powershell
-   pip install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles pytest black flake8
-   ```
-3. Clone and run:
+2. Open PowerShell or CMD:
    ```powershell
    git clone https://github.com/Quincunx33/EthicalHackingTools.git
    cd EthicalHackingTools
+   ```
+3. Install libraries:
+   - **Option A:**
+     ```powershell
+     pip install -r requirements.txt
+     ```
+   - **Option B:**
+     ```powershell
+     pip install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles pytest black flake8
+     ```
+4. Run the tool:
+   ```powershell
    python main.py
    ```
 

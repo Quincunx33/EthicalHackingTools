@@ -4,132 +4,61 @@
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Security Status](https://img.shields.io/badge/Security-Audited-brightgreen.svg)]()
 
-**HackerAI Framework** (codenamed **Sirra**) is a next-generation, modular security testing environment designed for ethical hackers, security researchers, and automated vulnerability assessment.
+**HackerAI Framework** (codenamed **Sirra**) is a lightweight, modular security testing environment designed for ethical hackers and security researchers. It is optimized for cross-platform use, including mobile environments like iOS and Android.
 
 ---
 
 ## 🚀 Key Features
 
-- **Universal Orchestrator:** Centralized module lifecycle management.
-- **Security Sandbox:** Restricted execution environment for custom modules.
-- **Modular Architecture:** Plug-and-play scanners and exploit testers.
-- **Reporting Engine:** Automated security report generation.
+- **Universal Orchestrator:** Centralized module management for easy expansion.
+- **Security Scanner:** Built-in code analysis to identify potentially dangerous modules.
+- **Advanced Web Scanner:** High-performance scanning with asynchronous support.
+- **Multi-Format Reporting:** Export results in HTML, JSON, CSV, and Markdown.
+- **Cross-Platform:** Works seamlessly on Windows, Linux, Android (Termux), and iOS (a-Shell).
 
 ---
 
-## 🛠️ Multi-Platform Installation Guide
+## 🛠️ Installation Guide
 
-### 📱 Termux (Android)
-1. Update and upgrade packages:
-   ```bash
-   pkg update && pkg upgrade
-   ```
-2. Install Python and Git:
-   ```bash
-   pkg install python git
-   ```
-3. Clone the repository:
+### 📱 Mobile (Android/iOS)
+1. **Android (Termux):** `pkg install python git`
+2. **iOS (a-Shell):** Install from App Store.
+3. **Clone & Run:**
    ```bash
    git clone https://github.com/Quincunx33/EthicalHackingTools.git
    cd EthicalHackingTools
-   ```
-4. Install required libraries (Choose one):
-   - **Option A (Recommended):**
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - **Option B (Manual):**
-     ```bash
-     pip install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles pytest black flake8
-     ```
-5. Run the tool:
-   ```bash
+   pip install -r requirements.txt
    python main.py
    ```
 
-### 🍎 iOS (a-Shell)
-1. Install **a-Shell** from the App Store.
-2. Clone the repository:
+### 💻 Desktop (Linux/Windows)
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/Quincunx33/EthicalHackingTools.git
    cd EthicalHackingTools
    ```
-3. Install dependencies:
-   - **Option A:**
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - **Option B:**
-     ```bash
-     pip install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles
-     ```
-
-### 🐧 Linux (Ubuntu/Kali/Debian)
-1. Update system and install base tools:
+2. **Install dependencies:**
    ```bash
-   sudo apt update && sudo apt install python3 python3-pip git -y
+   pip install -r requirements.txt
    ```
-2. Clone the repository:
+3. **Run the tool:**
    ```bash
-   git clone https://github.com/Quincunx33/EthicalHackingTools.git
-   cd EthicalHackingTools
-   ```
-3. Install requirements:
-   - **Option A:**
-     ```bash
-     pip3 install -r requirements.txt
-     ```
-   - **Option B:**
-     ```bash
-     pip3 install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles pytest black flake8
-     ```
-4. Run the tool:
-   ```bash
-   python3 main.py
-   ```
-
-### 🪟 Windows
-1. Install [Python 3.10+](https://www.python.org/downloads/) (Ensure "Add Python to PATH" is checked).
-2. Open PowerShell or CMD:
-   ```powershell
-   git clone https://github.com/Quincunx33/EthicalHackingTools.git
-   cd EthicalHackingTools
-   ```
-3. Install libraries:
-   - **Option A:**
-     ```powershell
-     pip install -r requirements.txt
-     ```
-   - **Option B:**
-     ```powershell
-     pip install requests aiohttp colorama pyyaml python-dotenv beautifulsoup4 lxml asyncio aiofiles pytest black flake8
-     ```
-4. Run the tool:
-   ```powershell
    python main.py
    ```
 
 ---
 
-## 📦 Required Tools & Libraries
-The framework relies on the following Python packages:
-- **Networking:** `requests`, `aiohttp`
-- **UI/UX:** `colorama`
-- **Configuration:** `pyyaml`, `python-dotenv`
-- **Parsing:** `beautifulsoup4`, `lxml`
-- **Async Operations:** `asyncio`, `aiofiles`
-- **Development:** `pytest`, `black`, `flake8`
-
----
-
-## 📦 Legacy Version
-The previous tools have been archived:
-👉 [**v1.0-old-tools Release**](https://github.com/Quincunx33/EthicalHackingTools/releases/tag/v1.0-old-tools)
+## 📦 Core Dependencies
+The framework is kept minimal to ensure compatibility:
+- `requests`: For synchronous HTTP operations.
+- `aiohttp`: For high-speed asynchronous scanning.
+- `colorama`: For cross-platform terminal coloring.
+- `dnspython`: For advanced DNS resolution (optional).
 
 ---
 
 ## 📜 Disclaimer
-> **WARNING:** This tool is for **Ethical Hacking** and **Educational Purposes** only. Unauthorized use is illegal.
+> **WARNING:** This tool is for **Ethical Hacking** and **Educational Purposes** only. Unauthorized use against targets without prior consent is illegal.
 
 ---
 **Maintained by:** [Quincunx33](https://github.com/Quincunx33)

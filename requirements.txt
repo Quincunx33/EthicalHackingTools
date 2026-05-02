@@ -1,17 +1,10 @@
-# iOS-Compatible HackerAI Framework
-# All libraries work on Pythonista/a-Shell
+# Sirra Framework Requirements
+# Optimized for iOS (a-Shell/Pythonista), Android (Termux), Linux, and Windows
 
 # Core dependencies
 requests>=2.31.0
 aiohttp>=3.9.1
 colorama>=0.4.6
 
-
-# Data processing
-beautifulsoup4>=4.12.2
-lxml>=4.9.3
-
-# Async utilities
-asyncio
-aiofiles>=23.2.1
-
+# Optional but recommended for advanced scanning
+dnspython>=2.4.2
